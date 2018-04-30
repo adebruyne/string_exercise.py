@@ -35,8 +35,6 @@ print(p)
 #ask = input("Give me a word with a vowel in it:")
 #vowels = ['a','e','i','o','u']
 
-for c in input:
-    for j in 
 
 
 
@@ -46,3 +44,27 @@ for c in input:
 
 
 
+#function to uppercase name input
+def name(my_name):
+    return my_name.upper()
+
+
+#given a string, print the string capitalized
+def name_caps(any_name):
+    any_name = name[0].upper() + name[-4:]
+    return any_name
+
+
+def reverse_it(forward):
+    reverse_it = forward[-1::-1]
+    return reverse_it
+
+
+def  leetspeak(p):
+    leet = ['a','e','g','i','o','s','t']
+    num = ['4','3','6','1','0','5','7']
+    for c in range(len(p))
+        for j in range(len(leet)):
+            if leet[j] == p[c]:
+                p = p.replace(p[c], num[j])
+    return(p)
